@@ -1,5 +1,6 @@
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
+import streamlit as st
 
 MODEL_NAME = "meta-llama/Llama-3-8B"  # Use a smaller model if needed
 
